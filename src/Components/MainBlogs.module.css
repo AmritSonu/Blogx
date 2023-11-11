@@ -1,0 +1,18 @@
+.main {
+  background: rgba(244, 238, 215, 0.434);
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+ 
+}
+.primaryMain {
+  width: 60%;
+}
+.secondaryMain {
+  width: 35%;
+}
+.fixer {
+  position: fixed;
+  top: 10%;
+  right: 0;
+}

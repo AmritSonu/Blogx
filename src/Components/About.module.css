@@ -1,0 +1,33 @@
+/* About.module.css */
+
+.about {
+  width: 80%;
+  margin: 5rem auto;
+  padding: 1.6rem;
+  background-color: #f9f9f9;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.1);
+}
+
+.aboutContent {
+  line-height: 1.6;
+}
+
+.heading {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contentParagraph {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+.writerName{
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  text-align: end;
+}

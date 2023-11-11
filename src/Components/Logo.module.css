@@ -1,0 +1,10 @@
+.logo {
+  cursor: pointer;
+}
+.logo h1 span {
+  font-size: 2.4rem;
+  display: inline-block;
+  padding: 1rem 1.4rem; /* Adjust the padding to your preference */
+  background-color: #f6cc62; /* Change the background color to your desired color */
+  border-radius: 60%; /* Makes the background round */
+}
