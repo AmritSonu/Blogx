@@ -7,7 +7,9 @@ import { MainBlogs } from "./Components/MainBlogs";
 import { LoginForm } from "./Components/LoginForm";
 import { NoPageFound } from "./Components/NoPageFound";
 import { NavBar } from "./Components/NavBar";
-
+import Footer from "./Components/Footer";
+import { ViewBlogBox } from "./Components/ViewBlogBox";
+import { ViewCategoryTypeBlog } from "./Components/BlogCategoryType";
 function App() {
   return (
     <div className="app">
@@ -19,7 +21,11 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="Login" element={<LoginForm />} />
           <Route path="*" element={<NoPageFound />} />
+          <Route path="Blogs" element={<ViewBlogBox />} />
+          <Route path="/categories/type=" element={<ViewCategoryTypeBlog />} />
         </Routes>
+        <Footer />
+        {/* <ViewBlogBox /> */}
       </BrowserRouter>
     </div>
   );

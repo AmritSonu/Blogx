@@ -1,0 +1,113 @@
+.blogCategory {
+  display: block;
+  position: relative;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 1.5rem 0;
+}
+
+.blogCategory::before {
+  content: "•"; /* Unicode character for a bullet point */
+  position: absolute;
+  height: 2rem;
+  left: -0.6rem;
+}
+
+.viewBlogBox {
+  width: 80%;
+  margin: 0 auto;
+}
+.viewBlogHeading {
+  font-size: 2rem;
+}
+.viewBlogParagraph {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  word-spacing: 0.1rem;
+}
+.userProfile {
+  border: 0.1rem solid #333;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 1rem;
+  margin: 2rem 0;
+}
+.userImg {
+  width: 4rem;
+  border-radius: 2rem;
+}
+.svgLink {
+  font-size: 1.4rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.bold {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.blogImg {
+  width: 100%;
+  height: 25rem;
+  object-fit: contain;
+}
+
+/* CommentSection.module.css */
+
+.commentSection {
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.commentSectionTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.commentList {
+  margin-bottom: 2rem;
+}
+
+.comment {
+  border: 0.1rem solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.commentAuthor {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.commentContent {
+  font-size: 0.9rem;
+}
+
+.commentForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.commentInput {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 50%; /* Set the width to 100% */
+  height: 100%;
+}
+
+.commentButton {
+  width: 10rem;
+  background-color: #f6cc62;
+  color: #fff;
+  padding: 0.6rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+.commentButton:hover {
+  background-color: #f5d582;
+}

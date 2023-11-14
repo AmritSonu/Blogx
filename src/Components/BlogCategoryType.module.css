@@ -1,0 +1,33 @@
+.viewtypeBlog {
+  background: #f7efd9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  border: 0.1rem solid #00000053;
+  width: 90%;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+.viewtypeBlog img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+}
+.viewtypeBlog h1 {
+  margin-bottom: 0.2rem;
+}
+.viewtypeBlog div {
+  float: right;
+}
+.blogtypeCategory {
+  display: block;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  padding: 2rem;
+  text-decoration: underline;
+  text-decoration-color: #f6cc62;
+}
